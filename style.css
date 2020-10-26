@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.header {
+    background-color: rgb(3, 100, 84);
+    height: 700px;
+    transform: translateY(-20px);
+}
+h2.name {
+    color: white;
+    padding: 40px 0 0 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+    float: right;
+    margin-right: 150px;
+    transform: translateY(-75px);
+    word-spacing: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     word-spacing: 0;
+}
+img.user {
+    position: relative;
+    top: 5px;
+    padding-right: 5px;
+}
+img.face {
+    position: relative;
+    top: 5px;
+}
+img.insta {
+    position: relative;
+    top: 5px;
+}
+img.in {
+    position: relative;
+    top: 5px;
+}
+nav a:hover {
+    color: rgba(255, 255, 255, 0.651);
+}
+h1 {
+ color: white;
+ padding: 40px 0 0 150px;
+ font-family: 'Oswald', sans-serif;
+ font-size: 80px;
+ transform: translateY(-50px);
+} 
+h1.second {
+    transform: translateY(-160px);
+}
+h1.third {
+    transform: translateY(-270px);
+}
+p {
+    padding: 0 0 0 155px;
+    transform: translateY(-300px);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.head_button {
+    transform: translateY(-240px);
+    margin-left: 150px;
+    padding: 15px 27px 15px 27px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    transition: .4s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.head_button:hover {
+    background-color: white;
+    color:  rgb(3, 100, 84);
+}
+h2.title {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    margin-right: 20px;
+    color:  rgb(3, 100, 84);
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+.column {
+    width: 30%;
+}
+h3 {
+    color:  rgb(3, 100, 84);
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+h4 {
+   padding: 0 50px 0 50px;
+   font-size: 17px;
+   transform: translateY(-20px);
+   color:  rgb(3, 100, 84);
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+}
+#SH {
+    transform: translateY(-30px);
+}
+#button {
+    margin-left: 130px;
+    padding: 13px 23px 13px 23px;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 16px;
+    background-color: rgb(3, 100, 84);
+}
+#button:hover {
+  opacity: 0.5;
+}
+.footer {
+    background-color: rgba(243, 166, 179, 0.432);
+    height: 720px;
+    padding-top: 50px;
+    margin-top: 80px;
+}
+.description {
+    border: 1px solid white;
+    margin: 50px 150px 0 690px;
+    padding: 0 30px 0 80px;
+    height: 576px;
+    background-color: white;
+    transform: translateX(-60px);
+}
+h5.ti {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: rgb(3, 100, 84);
+}
+h5.para {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgba(3, 100, 84, 0.534);
+}
+#book {
+    padding: 13px 23px 13px 23px;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 16px;
+    background-color: rgb(3, 100, 84);
+}
+#book:hover {
+    opacity: 0.5;
+}
+img.co {
+    transform: translateY(-578px);
+    margin-left: 245px;
+}
+.dooter {
+    background-color: rgb(3, 100, 84);
+    height: 580px;
+}
+input {
+  position: relative;
+  left: 800px;
+  top: 50px;
+}
+input[type='email'] {
+    padding: 10px 20px 10px 20px;
+}
+input[type='tel'] {
+    padding: 10px 20px 10px 20px;
+}
+.subject {
+    padding: 10px 212px 10px 18px;
+}
+input[type='text'] {
+    padding: 20px 210px 120px 18px;
+}
+input {
+    border: none;
+    color: white;
+    margin-top: 8px;
+    outline: none;
+    border-bottom: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+}
+::placeholder {
+    color: white;
+}
+input:hover {
+    border: 1px solid white;
+}
+input:focus {
+    border: 1px solid white;
+}
+button[type='submit'] {
+    position: relative;
+    top: 120px;
+    left: 800px;
+    padding: 10px 160px 10px 160px;
+    background-color: white;
+    color:  rgb(3, 100, 84);
+    border: none;
+    outline: none;
+    font-size: 16px;
+    transition: .4s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+button[type='submit']:hover {
+    color: white;
+    background-color: rgba(211, 211, 211, 0.788);
+}
+p#text {
+    margin: 50px 0 0 0px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+article {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+article.paragraphe {
+    margin-left: 150px;
+    position: relative;
+    bottom: 270px;
+}
+article.adress {
+    margin-left: 150px;
+    position: relative;
+    bottom: 233px;
+}
+.article a {
+   position: relative;
+   bottom: 230px;
+   left: 150px;
+   color: white;
+   text-decoration: none;
+   font-family: 'Roboto', sans-serif;
+}
+p.tel {
+    padding-top: 90px;
+}
+ol#links {
+    position: relative;
+    bottom: 30px;
+    right:40px;
+}
